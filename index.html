@@ -47,11 +47,23 @@
 
     <section class="section wrap" id="about">
       <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Research at the interface of chemistry and biology</h2>
-<p>I hold a PhD in Chemistry from the University of Delhi. My research focuses on understanding how small molecules interact with proteins and how those interactions influence protein structure, dynamics, and biological function.</p>
-<p>I combine computational approaches-including molecular docking, molecular dynamics simulations, and binding-energy calculations-with experimental techniques such as fluorescence spectroscopy, circular dichroism, and biochemical assays. I am interested in using these complementary methods to develop and test hypotheses relevant to drug discovery.</p>v>
-        <div class="about-grid">
-        <div class="about-text">
-            </div>
+</div>
+      <div class="about-grid">
+<div class="about-text">
+  <p>
+    I hold a PhD in Chemistry from the University of Delhi.
+    My research focuses on understanding how small molecules
+    interact with proteins and influence their structure,
+    dynamics, and biological function.
+  </p>
+
+  <p>
+    I combine molecular docking, molecular dynamics simulations,
+    and binding-energy calculations with experimental techniques
+    including fluorescence spectroscopy, circular dichroism,
+    and biochemical assays.
+  </p>
+</div>
         <div class="fact-card">
           <h3>Research interests</h3>
           <ul class="tag-list">
@@ -74,6 +86,63 @@
       </div>
     </section>
 
+
+<div class="research-slideshow" id="researchSlideshow">
+  <div class="slide-viewport">
+
+    <figure class="research-slide active">
+      <img src="images/HSA_HyMeNOS_SiteI.png"
+           alt="HSA and HyMeNOS molecular structure at Site I"
+           loading="eager">
+      <figcaption>HSA–HyMeNOS: Site I structural view</figcaption>
+    </figure>
+
+    <figure class="research-slide">
+      <img src="images/Helix_final.png"
+           alt="Helix-related structural analysis"
+           loading="lazy">
+      <figcaption>Helical structure analysis</figcaption>
+    </figure>
+
+    <figure class="research-slide">
+      <img src="images/pi-cation.png"
+           alt="Structural visualization of a proposed pi-cation interaction"
+           loading="lazy">
+      <figcaption>π–cation interaction analysis</figcaption>
+    </figure>
+
+    <figure class="research-slide">
+      <img src="images/md_clustering_figure_single_png_final.png"
+           alt="Molecular dynamics clustering analysis"
+           loading="lazy">
+      <figcaption>Molecular dynamics clustering</figcaption>
+    </figure>
+
+    <figure class="research-slide">
+      <img src="images/tSNE_latent_space.png"
+           alt="t-SNE latent-space visualization"
+           loading="lazy">
+      <figcaption>t-SNE latent-space visualization</figcaption>
+    </figure>
+
+  </div>
+
+  <div class="slide-controls">
+    <button type="button" class="slide-prev"
+            aria-label="Previous figure">← Previous</button>
+    <span class="slide-counter" aria-live="polite">1 / 5</span>
+    <button type="button" class="slide-next"
+            aria-label="Next figure">Next →</button>
+  </div>
+
+  <div class="slide-dots" aria-label="Choose a figure">
+    <button type="button" class="active" aria-label="Show figure 1"></button>
+    <button type="button" aria-label="Show figure 2"></button>
+    <button type="button" aria-label="Show figure 3"></button>
+    <button type="button" aria-label="Show figure 4"></button>
+    <button type="button" aria-label="Show figure 5"></button>
+  </div>
+</div>
     
 <section class="section wrap" id="projects">
   <div class="section-heading">
@@ -85,7 +154,7 @@
       and bioactive compounds.
     </p>
   </div>
-
+  
   <div class="project-list">
 
     <article class="project">
@@ -368,11 +437,12 @@
 </section>
 
     <section class="section wrap" id="blog">
-      <div class="section-heading"><p class="eyebrow">NOTES FROM THE LAB & DESK</p><h2>Scientific blog</h2><p class="section-intro">Short explainers, practical workflows, and reflections on research. Draft ideas below can be replaced with finished posts.</p></div>
+      <div class="section-heading"><p class="eyebrow">NOTES FROM THE LAB & DESK</p><h2>Scientific blog</h2><p class="section-intro">Short explainers, practical workflows, and reflections on research. Exploring computational chemistry, spectroscopy,
+and reproducible scientific workflows.</p></div>
       <div class="card-grid three blog-grid">
-        <article class="blog-card"><div class="blog-top"><span class="blog-category">Computational chemistry</span><span>01</span></div><h3>What can molecular dynamics tell us beyond docking?</h3><p>A beginner-friendly comparison of static binding poses and time-dependent molecular behaviour.</p><a href="mailto:YOUR_EMAIL@example.com?subject=Blog%20idea%3A%20Molecular%20dynamics" class="text-link">Develop this post <span>→</span></a></article>
-        <article class="blog-card"><div class="blog-top"><span class="blog-category">Spectroscopy</span><span>02</span></div><h3>Inner-filter effects in fluorescence experiments</h3><p>Why absorbance matters, when corrections are appropriate, and how to report assumptions transparently.</p><a href="mailto:YOUR_EMAIL@example.com?subject=Blog%20idea%3A%20Inner-filter%20effects" class="text-link">Develop this post <span>→</span></a></article>
-        <article class="blog-card"><div class="blog-top"><span class="blog-category">Research practice</span><span>03</span></div><h3>Making a molecular simulation workflow reproducible</h3><p>A practical checklist for recording software versions, simulation settings, analysis choices, and limitations.</p><a href="mailto:YOUR_EMAIL@example.com?subject=Blog%20idea%3A%20Reproducible%20MD" class="text-link">Develop this post <span>→</span></a></article>
+        <article class="blog-card"><div class="blog-top"><span class="blog-category">Computational chemistry</span><span>01</span></div><h3>What can molecular dynamics tell us beyond docking?</h3><p>A beginner-friendly comparison of static binding poses and time-dependent molecular behaviour.</p><p class="blog-status">Article coming soon!</p></article>
+        <article class="blog-card"><div class="blog-top"><span class="blog-category">Spectroscopy</span><span>02</span></div><h3>Inner-filter effects in fluorescence experiments</h3><p>Why absorbance matters, when corrections are appropriate, and how to report assumptions transparently.</p><p class="blog-status">Article coming soon!</p></article>
+        <article class="blog-card"><div class="blog-top"><span class="blog-category">Research practice</span><span>03</span></div><h3>Making a molecular simulation workflow reproducible</h3><p>A practical checklist for recording software versions, simulation settings, analysis choices, and limitations.</p><p class="blog-status">Article coming soon!</p></article>
       </div>
     </section>
 
@@ -410,7 +480,7 @@
       </a>
 
       <a class="button outline-light"
-         href="www.linkedin.com/in/ssagar61"
+         href="https://www.linkedin.com/in/ssagar61"
          target="_blank" rel="noopener noreferrer">
         LinkedIn
       </a>
